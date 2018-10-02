@@ -13,8 +13,8 @@ This will be a book for 2140 programming fundamentals
 
 :leveloffset: +1
 
-= Chapter One: Writing tests
-== Writing our first test case
+= Chapter One
+== chapter one subsections
 
 Here is an example of embedding code in AsciiDoc
 [source,java, numbered]
