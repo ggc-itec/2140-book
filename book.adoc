@@ -1,0 +1,49 @@
+
+= Programming Fundamental Book
+Authors
+:toc: left
+:source-highlighter: pygments
+:pygments-style: friendly
+:nofooter:
+:sectnums:
+
+This will be a book for 2140 programming fundamentals
+
+
+
+:leveloffset: +1
+
+= Chapter One: Writing tests
+== Writing our first test case
+
+Here is an example of embedding code in AsciiDoc
+[source,java, numbered]
+----
+    @Test
+    public void doubleMath() {
+        Assert.assertEquals(0.3, 0.1+0.1+0.1, 0);
+    }
+----
+
+
+
+== Chapter One: 
+== subsections for chapter one
+
+= Chapter Two: 
+== subsections for chapter two
+
+= Chapter Four: 
+== subsections for chapter three
+
+
+= Chapter Five:
+== subsections for chapter four
+
+= Chapter Seven: 
+== subsections for chapter four
+
+= Chapter Eight: 
+== subsections for chapter four
+
+:leveloffset: -1
