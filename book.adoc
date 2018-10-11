@@ -25,6 +25,37 @@ Here is an example of embedding code in AsciiDoc
     }
 ----
 
+Here is an example of showing a PythonTutor 
+
+:!sectnums:
+=== PythonTutor Example 1.{counter:pt_example}
+:sectnums:
+
+:pt_code_height: 300
+:pt_rawinput: false
+:pt_code: public%20class%20YourClassNameHere%20%7B%0A%20%20%20%20public%20static%20void%20main%28String%5B%5D%20args%29%20%7B%0A%20%20%20%20%20%20System.out.println%28%22This%20is%20a%20fun%20example%22%29%3B%0A%20%20%20%20%7D%0A%7D
+
+****
+.Main Method
+--
+--
+Try to predict the variable names, values, and data types in the the code example below.  Use the _Forward_ button to check your answers.
+
+[subs="attributes"]
+++++
+<iframe width="100%" frameborder="5" height="{pt_code_height}" src="http://pythontutor.com/iframe-embed.html#code={pt_code}&origin=opt-frontend.js&cumulative=false&heapPrimitives=false&textReferences=false&py=java&rawInputLstJSON=%5B%5D&curInstr=0&codeDivWidth=400&codeDivHeight={pt_code_height}"> </iframe>
+
+<div style="text-align: right;">
+ifeval::[{pt_rawinput} == true]
+  <a
+  href="javascript:window.location.reload(true);">Modify Raw Input</a>&nbsp;&nbsp;&nbsp;&nbsp;
+endif::[]
+<a style="" target="_blank" href="http://www.pythontutor.com/visualize.html#code={pt_code}&mode=edit&origin=opt-frontend.js&cumulative=false&heapPrimitives=false&textReferences=false&py=2&rawInputLstJSON=%5B%5D&curInstr=0">Edit in PythonTutor</a>
+</div>
+++++
+****
+
+
 
 = Chapter Two: 
 == subsections for chapter two
